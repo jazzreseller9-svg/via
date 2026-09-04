@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ms">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minta Maaf 🙏</title>
+    <style>
+        *{margin:0;padding:0;box-sizing:border-box}
+        body{min-height:100vh;display:flex;justify-content:center;align-items:center;
+            background:linear-gradient(135deg,#ffecd2 0%,#fcb69f 100%);
+            font-family:'Segoe UI',sans-serif;text-align:center;padding:30px 20px}
+        .card{background:rgba(255,255,255,.9);border-radius:24px;padding:45px 30px;
+            max-width:400px;box-shadow:0 10px 40px rgba(0,0,0,.12);
+            animation:muncul 1.2s ease-out forwards;opacity:0;transform:translateY(25px)}
+        @keyframes muncul{to{opacity:1;transform:translateY(0)}}
+        .emoji{font-size:60px;margin-bottom:20px}
+        h1{font-size:2em;color:#b03a2e;margin-bottom:20px}
+        p{font-size:1.1em;color:#444;line-height:1.8;margin-bottom:12px}
+        .heart{color:#e74c3c;font-size:1.5em;margin:15px 0}
+        .sign{margin-top:25px;font-style:italic;color:#777}
+    </style>
+</head>
+<body>
+    <div class="card">
+        <div class="emoji">🙏</div>
+        <h1>Saya Minta Maaf</h1>
+        <p>Dari lubuk hati yang paling dalam,<br>saya mohon maaf atas segala kesalahan.</p>
+        <p>Sama ada sengaja atau tidak sengaja,<br>saya harap sudi memaafkan saya.</p>
+        <div class="heart">❤️</div>
+        <p class="sign">Yang ikhlas,<br>— Dari hati saya</p>
+    </div>
+</body>
+</html>
